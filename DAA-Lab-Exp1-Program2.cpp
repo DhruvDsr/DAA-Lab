@@ -20,7 +20,7 @@ void dutchNationalFlag(vector<int>& arr) {
         else if (arr[mid] == 1) {
             mid++;
         } 
-        else { // arr[mid] == 2
+        else { 
             swap(arr[mid], arr[high]);
             high--;
         }
